@@ -1,0 +1,18 @@
+$colornf2: #15498A;
+$colorf: #393E46;
+@mixin fontStyle($color, $fontSize, $colortwo){
+    font-size: $fontSize;
+    color:$colortwo;
+    background-color: $color;
+    text-transform: uppercase;
+}
+
+h4{
+    @include fontStyle(red, 35px, black );
+}
+
+h3{
+    @extend h4;
+    background-color:$colorf ;
+    
+}

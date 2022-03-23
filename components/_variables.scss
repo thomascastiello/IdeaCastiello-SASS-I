@@ -1,0 +1,17 @@
+$colornf: black;
+$colornf2: #15498A;
+$colorf: #393E46;
+$font-size1: 2rem;
+$font-size2:1rem;
+
+.colornf{
+        background-color: $colornf;
+    }
+
+h1{
+    background-color: $colornf2;
+    width: auto;
+    color: white;
+    font-size:1rem + $font-size1;
+    text-align: center;
+}
